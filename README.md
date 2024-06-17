@@ -1,3 +1,7 @@
+Please have mercy on the first 2 questions if the app is called restaurant. (mine is LittleLemonApp). The principle is the same! 
+I named it wrong because i didn't understood it from the beginning what the goal was.
+
+
 Logging in on the admin panel:
 Login: admin
 Password: admin@123
