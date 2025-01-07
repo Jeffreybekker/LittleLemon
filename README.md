@@ -1,6 +1,12 @@
 # Little Lemon Capstone
 
+## Description
 
+## Table of Contents
+
+## Installation
+
+## API Endpoints
 Logging in on the admin panel:
 Login: admin
 Password: admin@123
