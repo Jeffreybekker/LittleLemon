@@ -3,6 +3,11 @@
 ## Description
 
 ## Table of Contents
+* [Ecommerce Project](#ecommerce-project)
+  * [Description](#description)
+  * [Screenshots](#screenshots)
+  * [Installation](#installation)
+  * [Features](#features)
 
 ## Installation
 
