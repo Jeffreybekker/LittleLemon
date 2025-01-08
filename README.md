@@ -3,7 +3,7 @@
 ## Description
 
 ## Table of Contents
-* [Ecommerce Project](#ecommerce-project)
+* [LittleLemon](#LittleLemon)
   * [Description](#description)
   * [Screenshots](#screenshots)
   * [Installation](#installation)
