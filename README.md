@@ -6,8 +6,11 @@
 * [Little Lemon Capstone](#little-lemon-capstone)
   * [Description](#description)
   * [Screenshots](#screenshots)
+  * [API Endpoints](#api-endpoints)
   * [Installation](#installation)
   * [Features](#features)
+
+## Screenshots
 
 ## Installation
 
