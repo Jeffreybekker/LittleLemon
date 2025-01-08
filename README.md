@@ -3,7 +3,7 @@
 ## Description
 
 ## Table of Contents
-* [LittleLemon](#LittleLemon)
+* [Little Lemon Capstone](#littlelemon)
   * [Description](#description)
   * [Screenshots](#screenshots)
   * [Installation](#installation)
