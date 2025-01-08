@@ -32,4 +32,4 @@ Example adding new user in Insomnia (use POST request):
 	"email": "jan@gmail.com"
 	}
 
- 
+ ## Features
