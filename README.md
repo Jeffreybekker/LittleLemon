@@ -27,7 +27,7 @@ python -m venv env
 <p>Login: admin</p>
 <p>Password: admin@123</p>
 
-Use the following links to test the APIs with Insomnia:
+<p>Use the following links to test the APIs with Insomnia:</p>
 http://127.0.0.1:8000/restaurant/menu/     (to get all menu items, use GET)
 http://127.0.0.1:8000/restaurant/menu/1    (to get a specific menu item, you can use GET, PUT and DELETE)
 http://127.0.0.1:8000/restaurant/booking/tables/ (to get all reservations, use a BEARER TOKEN, use Insomnia)
