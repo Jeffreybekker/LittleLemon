@@ -1,9 +1,13 @@
 # Little Lemon Capstone
 
 ## Description
-This is the last project of the Meta Backend Developer Professional certificate. <br>
+<p>This is the last project of the Meta Backend Developer Professional certificate. </p>
 In this project it is possible to:
-
+* Get all menu items
+* Create items to the menu
+* Get, update and delete a single menu item
+* Get all bookings and create bookings
+* Get, update and delete a single booking
 
 ## Table of Contents
 * [Little Lemon Capstone](#little-lemon-capstone)
