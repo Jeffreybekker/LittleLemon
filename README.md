@@ -1,6 +1,5 @@
 # Little Lemon Capstone
 
-## Description
 <p>This is the last project of the Meta Backend Developer Professional certificate. </p>
 <p>In this project it is possible to:</p>
 
@@ -12,7 +11,6 @@
 
 ## Table of Contents
 * [Little Lemon Capstone](#little-lemon-capstone)
-  * [Description](#description)
   * [Installation](#installation)
   * [API Endpoints](#api-endpoints)
   * [Screenshots](#screenshots)
