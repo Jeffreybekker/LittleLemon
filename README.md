@@ -89,7 +89,7 @@ http://127.0.0.1:8000/restaurant/menu/{id}
 				<td>DELETE</td>
 				<td>Delete menu item</td>
 				<td>No</td>
-				<td>200 OK</td>
+				<td>204 No Content</td>
 		</tr>
 	</tbody>
 </table>
