@@ -23,9 +23,7 @@ python -m venv env
 3. Start the virtual environment, depending on your system. You can get more information about this <a href="https://docs.python.org/3/tutorial/venv.html">here</a>.
 
 ## API Endpoints
-<p>Logging in on the admin panel:</p>
-<p>Login: admin</p>
-<p>Password: admin@123</p>
+<p>Logging in on the admin panel: <br> Login: admin <br> Password: admin@123</p>
 
 <p>Use the following links to test the APIs with Insomnia:</p>
 http://127.0.0.1:8000/restaurant/menu/     (to get all menu items, use GET)
