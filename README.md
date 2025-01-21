@@ -49,10 +49,15 @@ http://127.0.0.1:8000/restaurant/menu/
 			<td>No</td>
 			<td>200</td>
 		</tr>
+		<tr>
+			<td>POST</td>
+			<td>Add a new menu item</td>
+			<td>No</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 
-http://127.0.0.1:8000/restaurant/menu/     (to get all menu items, use GET)
 http://127.0.0.1:8000/restaurant/menu/1    (to get a specific menu item, you can use GET, PUT and DELETE)
 http://127.0.0.1:8000/restaurant/booking/tables/ (to get all reservations, use a BEARER TOKEN, use Insomnia)
 
