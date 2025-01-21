@@ -8,6 +8,7 @@
 * Get, update and delete a single menu item
 * Get all bookings and create bookings
 * Get, update and delete a single booking
+* Creating user
 
 ## Table of Contents
 * [Little Lemon Capstone](#little-lemon-capstone)
