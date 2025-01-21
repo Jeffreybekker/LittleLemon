@@ -1,13 +1,6 @@
 # Little Lemon Capstone
 
 <p>This is the last project of the Meta Backend Developer Professional certificate.</p>
-<p>In this project it is possible to:</p>
-
-* Get all menu items
-* Create items to the menu
-* Get, update and delete a single menu item
-* Get all bookings and create bookings
-* Get, update and delete a single booking
 
 ## Table of Contents
 * [Little Lemon Capstone](#little-lemon-capstone)
@@ -58,10 +51,48 @@ http://127.0.0.1:8000/restaurant/menu/
 		</tr>
 	</tbody>
 </table>
+<br>
 
 ```
 http://127.0.0.1:8000/restaurant/menu/{id}
 ```
+* Single view, update, partially update or delete item
+<table>
+	<thead>
+		<tr>
+			<th>HTTP Method</th>
+			<th>Action</th>
+			<th>Auth token</th>
+			<th>Status code</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>GET</td>
+			<td>Retrieve single menu item</td>
+			<td>No</td>
+			<td>200 OK</td>
+		</tr>
+		<tr>
+			<td>PUT</td>
+			<td>Update menu item</td>
+			<td>No</td>
+			<td>200 OK</td>
+		</tr>
+			<tr>
+				<td>PATCH</td>
+				<td>Partially update menu item</td>
+				<td>No</td>
+				<td>200 OK</td>
+		</tr>
+			<tr>
+				<td>DELETE</td>
+				<td>Delete menu item</td>
+				<td>No</td>
+				<td>200 OK</td>
+		</tr>
+	</tbody>
+</table>
 
 http://127.0.0.1:8000/restaurant/menu/1    (to get a specific menu item, you can use GET, PUT and DELETE)
 http://127.0.0.1:8000/restaurant/booking/tables/ (to get all reservations, use a BEARER TOKEN, use Insomnia)
