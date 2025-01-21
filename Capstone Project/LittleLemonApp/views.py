@@ -8,7 +8,7 @@ from rest_framework.permissions import IsAuthenticated
 def index(request):
     return render(request, 'index.html', {})
 
-class MenuItemVIew(generics.ListCreateAPIView):
+class MenuItemView(generics.ListCreateAPIView):
     queryset = MenuItem.objects.all()
     serializer_class = MenuItemSerializer
     
