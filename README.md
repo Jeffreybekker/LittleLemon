@@ -8,7 +8,6 @@
   * [Screenshots](#screenshots)
   * [API Endpoints](#api-endpoints)
   * [Installation](#installation)
-  * [Features](#features)
 
 ## Screenshots
 
@@ -24,9 +23,9 @@ python -m venv env
 3. Start the virtual environment, depending on your system. You can get more information about this <a href="https://docs.python.org/3/tutorial/venv.html">here</a>.
 
 ## API Endpoints
-Logging in on the admin panel:
-Login: admin
-Password: admin@123
+<p>Logging in on the admin panel:</p>
+<p>Login: admin</p>
+<p>Password: admin@123</p>
 
 Use the following links to test the APIs with Insomnia:
 http://127.0.0.1:8000/restaurant/menu/     (to get all menu items, use GET)
@@ -40,5 +39,3 @@ Example adding new user in Insomnia (use POST request):
 	"password": "jan@1234",
 	"email": "jan@gmail.com"
 	}
-
- ## Features
