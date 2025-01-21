@@ -3,12 +3,12 @@
 ## Description
 <p>This is the last project of the Meta Backend Developer Professional certificate. </p>
 <p>In this project it is possible to:</p>
+
 * Get all menu items
 * Create items to the menu
 * Get, update and delete a single menu item
 * Get all bookings and create bookings
 * Get, update and delete a single booking
-* Creating user
 
 ## Table of Contents
 * [Little Lemon Capstone](#little-lemon-capstone)
