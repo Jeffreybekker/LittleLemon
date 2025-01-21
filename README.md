@@ -28,10 +28,6 @@ python -m venv env
 3. Start the virtual environment, depending on your system. You can get more information about this <a href="https://docs.python.org/3/tutorial/venv.html">here</a>.
 
 ## API Endpoints
-<p>Logging in on the admin panel: <br> 
-Login: admin <br> 
-Password: admin@123</p>
-
 <p>Below are the APIs endpoints explained with the URL, possible methods, actions, if a token is needed and the status codes:</p>
 
 ```
@@ -60,5 +56,8 @@ Example adding new user in Insomnia (use POST request):
 	"email": "jan@gmail.com"
 	}
 ## Admin Panel
+<p>Logging in on the admin panel: <br> 
+Login: admin <br> 
+Password: admin@123</p>
 
 ## Screenshots
