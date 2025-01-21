@@ -42,6 +42,14 @@ http://127.0.0.1:8000/restaurant/menu/
 			<th>Status code</th>
 		</tr>
 	</thead>
+	<tbody>
+		<tr>
+			<td>GET</td>
+			<td>Retrieve all menu items</td>
+			<td>No</td>
+			<td>200</td>
+		</tr>
+	</tbody>
 </table>
 
 http://127.0.0.1:8000/restaurant/menu/     (to get all menu items, use GET)
@@ -61,3 +69,6 @@ Login: admin <br>
 Password: admin@123</p>
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/62a6deaa-0af9-4a08-93b4-3154d8a30734)
+![image](https://github.com/user-attachments/assets/cb8c4eb9-6e20-4c67-a932-855050e78a9f)
+
