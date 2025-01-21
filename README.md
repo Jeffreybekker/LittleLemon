@@ -31,7 +31,11 @@ python -m venv env
 Login: admin <br> 
 Password: admin@123</p>
 
-<p>Use the following links to test the APIs with Insomnia:</p>
+<p>Below are the APIs endpoints explained with the URL, possible methods, actions, if a token is needed and the status codes:</p>
+
+```
+http://127.0.0.1:8000/api/menu/items
+```
 <table>
 	<thead>
 		<tr>
