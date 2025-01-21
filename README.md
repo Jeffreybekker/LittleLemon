@@ -13,6 +13,7 @@
 * [Little Lemon Capstone](#little-lemon-capstone)
   * [Installation](#installation)
   * [API Endpoints](#api-endpoints)
+  * [Admin Panel](#admin-panel)
   * [Screenshots](#screenshots)
 
 ## Installation
@@ -58,5 +59,6 @@ Example adding new user in Insomnia (use POST request):
 	"password": "jan@1234",
 	"email": "jan@gmail.com"
 	}
+## Admin Panel
 
 ## Screenshots
