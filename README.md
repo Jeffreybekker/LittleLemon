@@ -33,6 +33,7 @@ python -m venv env
 ```
 http://127.0.0.1:8000/restaurant/menu/
 ```
+* Check out all the menu items or add an item
 <table>
 	<thead>
 		<tr>
