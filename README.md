@@ -47,13 +47,13 @@ http://127.0.0.1:8000/restaurant/menu/
 			<td>GET</td>
 			<td>Retrieve all menu items</td>
 			<td>No</td>
-			<td>200</td>
+			<td>200 OK</td>
 		</tr>
 		<tr>
 			<td>POST</td>
 			<td>Add a new menu item</td>
 			<td>No</td>
-			<td></td>
+			<td>201 Created</td>
 		</tr>
 	</tbody>
 </table>
