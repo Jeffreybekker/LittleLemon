@@ -34,7 +34,7 @@ Password: admin@123</p>
 <p>Below are the APIs endpoints explained with the URL, possible methods, actions, if a token is needed and the status codes:</p>
 
 ```
-http://127.0.0.1:8000/api/menu/items
+http://127.0.0.1:8000/restaturant/menu/items
 ```
 <table>
 	<thead>
