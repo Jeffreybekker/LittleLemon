@@ -1,6 +1,8 @@
 # Little Lemon Capstone
 
-<p>This is the last project of the Meta Backend Developer Professional certificate.</p>
+<p>This is the last project of the Meta Backend Developer Professional certificate course.</p>
+<p>In this project you'll find models that were used to create a database. Everything is stored in MySQL which you can access if you have the permissions. We used Djoser for user authentication to registrate the user, to login and logout. The menu and the table reservations are build with Django Rest Framework. For testing you can use Insomnia. The photos of what Insomnia looks like you can see below.</p>
+
 
 ## Table of Contents
 * [Little Lemon Capstone](#little-lemon-capstone)
