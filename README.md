@@ -8,6 +8,8 @@
 * [Little Lemon Capstone](#little-lemon-capstone)
   * [Installation](#installation)
   * [Endpoints](#endpoints)
+  	* [User Management Endpoints](#user-management-endpoints)
+  	* [API Endpoints](#api-endpoints)
   * [Admin Panel](#admin-panel)
   * [Screenshots](#screenshots)
 
