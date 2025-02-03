@@ -57,7 +57,7 @@ http://127.0.0.1:8000/auth/users/
 ```
 http://127.0.0.1:8000/auth/token/login/
 ```
-*Note: it takes 'username' en 'password' as content that you want to send in the body of the request.*
+*Note: it takes username and password as content that you want to send in the body of the request.*
 
 <table>
 	<thead>
