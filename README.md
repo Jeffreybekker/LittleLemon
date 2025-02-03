@@ -32,7 +32,15 @@ http://127.0.0.1:8000/auth/users/
 ```
 <table>
 	<thead>
-			<tr>
+		<tr>
+			<th>HTTP Method</th>
+			<th>Action</th>
+			<th>Auth token</th>
+			<th>Status code</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
 			<td>POST</td>
 			<td>Create new user</td>
 			<td>No</td>
