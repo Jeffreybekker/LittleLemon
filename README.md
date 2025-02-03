@@ -72,7 +72,7 @@ http://127.0.0.1:8000/auth/token/login/
 			<td>POST</td>
 			<td>Obtain user auth token</td>
 			<td>No</td>
-			<td>201 Created</td>
+			<td>200 OK</td>
 		</tr>
 	</tbody>
 </table>
