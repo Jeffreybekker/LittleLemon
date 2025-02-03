@@ -113,7 +113,7 @@ http://127.0.0.1:8000/auth/users/me/
 ```
 http://127.0.0.1:8000/auth/users/
 ```
-*Note: This is for Admin only. First get your Admin Token and then use it for authentication In Auth. Make sure you select Bearer Token.*
+*Note: This is for Admin only. First get your Admin Token and then use it for authentication in Auth. Make sure you select Bearer Token.*
 
 <table>
 	<thead>
