@@ -26,7 +26,7 @@ python -m venv env
 
 ## Endpoints
 ### User Management Endpoints
-* Create user
+##### * Create user
 ```
 http://127.0.0.1:8000/auth/users/
 ```
