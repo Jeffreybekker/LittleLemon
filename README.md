@@ -109,7 +109,7 @@ http://127.0.0.1:8000/auth/users/me/
 
 * Get all users (admin)
 ```
-http://127.0.0.1:8000/auth/users/me/
+http://127.0.0.1:8000/auth/users/
 ```
 
 <table>
