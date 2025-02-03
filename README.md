@@ -7,7 +7,7 @@
 ## Table of Contents
 * [Little Lemon Capstone](#little-lemon-capstone)
   * [Installation](#installation)
-  * [API Endpoints](#api-endpoints)
+  * [Endpoints](#endpoints)
   * [Admin Panel](#admin-panel)
   * [Screenshots](#screenshots)
 
