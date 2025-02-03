@@ -49,7 +49,9 @@ http://127.0.0.1:8000/auth/users/
 	</tbody>
 </table>
 <br>
-![image](https://github.com/user-attachments/assets/05eeaa25-b498-43d3-bbeb-86e62f6744b8) 
+
+![image](https://github.com/user-attachments/assets/cee12efb-6043-4f04-ab34-bce3e92e65e2)
+
 
 ```
 http://127.0.0.1:8000/auth/token/login/
