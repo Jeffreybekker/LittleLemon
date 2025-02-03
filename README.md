@@ -53,7 +53,7 @@ http://127.0.0.1:8000/auth/users/
 
 ![image](https://github.com/user-attachments/assets/cee12efb-6043-4f04-ab34-bce3e92e65e2)
 
-* Obtain user authentication token
+#### Obtain user authentication token
 ```
 http://127.0.0.1:8000/auth/token/login/
 ```
@@ -80,7 +80,7 @@ http://127.0.0.1:8000/auth/token/login/
 
 ![image](https://github.com/user-attachments/assets/a18fd43d-3d0e-4e89-a332-6c004b965ac9)
 
-* Get current user
+#### Get current user
 ```
 http://127.0.0.1:8000/auth/users/me/
 ```
@@ -107,7 +107,7 @@ http://127.0.0.1:8000/auth/users/me/
 
 ![image](https://github.com/user-attachments/assets/bea9f815-a2fd-4bab-ae6b-1282c298e489)
 
-* Get all users (admin)
+#### Get all users (admin)
 ```
 http://127.0.0.1:8000/auth/users/
 ```
@@ -134,7 +134,7 @@ http://127.0.0.1:8000/auth/users/
 
 ![image](https://github.com/user-attachments/assets/dd97969b-3594-48c4-913b-b30f6aef15c1)
 
-* Logout current user
+#### Logout current user
 ```
 http://127.0.0.1:8000/auth/token/logout/
 ```
