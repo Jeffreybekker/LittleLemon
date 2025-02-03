@@ -52,19 +52,50 @@ http://127.0.0.1:8000/auth/users/
 
 ![image](https://github.com/user-attachments/assets/cee12efb-6043-4f04-ab34-bce3e92e65e2)
 
-
+* Obtain auth token user
 ```
 http://127.0.0.1:8000/auth/token/login/
 ```
+<table>
+	<thead>
+		<tr>
+			<th>HTTP Method</th>
+			<th>Action</th>
+			<th>Auth token</th>
+			<th>Status code</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>POST</td>
+			<td>Obtain auth token</td>
+			<td>No</td>
+			<td>201 Created</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+
+![image](https://github.com/user-attachments/assets/a18fd43d-3d0e-4e89-a332-6c004b965ac9)
+
 ```
 http://127.0.0.1:8000/auth/users/me/
 ```
+
+![image](https://github.com/user-attachments/assets/bea9f815-a2fd-4bab-ae6b-1282c298e489)
+
 ```
 http://127.0.0.1:8000/auth/users/me/
 ```
+
+![image](https://github.com/user-attachments/assets/dd97969b-3594-48c4-913b-b30f6aef15c1)
+
 ```
 http://127.0.0.1:8000/auth/token/logout/
 ```
+
+![image](https://github.com/user-attachments/assets/ff2b2032-0f98-455b-9865-342affcf88a3)
+
 
 ### API Endpoints
 <p>Below are the APIs endpoints explained with the URL, possible methods, actions, if a token is needed and the status codes:</p>
