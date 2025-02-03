@@ -1,7 +1,7 @@
 # Little Lemon Capstone
 
 <p>This is the last project of the Meta Backend Developer Professional certificate course.</p>
-<p>In this project, you'll find the models used to create the database, which is stored in MySQL. Access to the database is granted based on permissions. The Djoser library is installed for user authentication, enabling user registration, login, and logout, password reset and many more functionalities. To secure the APIs we make use of TokenAuthentication from DRF, so only . The menu and table reservations are built using Django Rest Framework. For testing purposes, you can use Insomnia, and screenshots of Insomnia are shown below.</p>
+<p>In this project, you'll find the models used to create the database, which is stored in MySQL. Access to the database is granted based on authentication. The Djoser library is installed for user authentication, enabling user registration, login and logout, password reset and many more functionalities. To secure the APIs we make use of TokenAuthentication from the Django Rest Framework. The menu and table reservations are built using Django Rest Framework. For testing purposes, you can use Insomnia, and screenshots of Insomnia are shown below.</p>
 
 
 ## Table of Contents
