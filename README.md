@@ -22,7 +22,18 @@ python -m venv env
 ```
 3. Start the virtual environment, depending on your system. You can get more information about this <a href="https://docs.python.org/3/tutorial/venv.html">here</a>.
 
-## API Endpoints
+## Endpoints
+### User Management Endpoints
+http://127.0.0.1:8000/restaurant/booking/tables/ (to get all reservations, use a BEARER TOKEN, use Insomnia)
+
+User registration you can do on the admin panel or use this link http://127.0.0.1:8000/auth/users/
+Example adding new user in Insomnia (use POST request):
+{
+	"username": "Jan",
+	"password": "jan@1234",
+	"email": "jan@gmail.com"
+	}
+### API Endpoints
 <p>Below are the APIs endpoints explained with the URL, possible methods, actions, if a token is needed and the status codes:</p>
 
 ```
@@ -96,15 +107,6 @@ http://127.0.0.1:8000/restaurant/menu/{id}
 	</tbody>
 </table>
 
-http://127.0.0.1:8000/restaurant/booking/tables/ (to get all reservations, use a BEARER TOKEN, use Insomnia)
-
-User registration you can do on the admin panel or use this link http://127.0.0.1:8000/auth/users/
-Example adding new user in Insomnia (use POST request):
-{
-	"username": "Jan",
-	"password": "jan@1234",
-	"email": "jan@gmail.com"
-	}
 ## Admin Panel
 <p>Logging in on the admin panel: <br> 
 Login: admin <br> 
