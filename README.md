@@ -28,13 +28,22 @@ python -m venv env
 ### User Management Endpoints
 http://127.0.0.1:8000/restaurant/booking/tables/ (to get all reservations, use a BEARER TOKEN, use Insomnia)
 
-User registration you can do on the admin panel or use this link http://127.0.0.1:8000/auth/users/
-Example adding new user in Insomnia (use POST request):
-{
-	"username": "Jan",
-	"password": "jan@1234",
-	"email": "jan@gmail.com"
-	}
+```
+http://127.0.0.1:8000/restaurant/menu/
+```
+```
+http://127.0.0.1:8000/restaurant/menu/
+```
+```
+http://127.0.0.1:8000/restaurant/menu/
+```
+```
+http://127.0.0.1:8000/restaurant/menu/
+```
+```
+http://127.0.0.1:8000/restaurant/menu/
+```
+
 ### API Endpoints
 <p>Below are the APIs endpoints explained with the URL, possible methods, actions, if a token is needed and the status codes:</p>
 
