@@ -26,11 +26,22 @@ python -m venv env
 
 ## Endpoints
 ### User Management Endpoints
-http://127.0.0.1:8000/restaurant/booking/tables/ (to get all reservations, use a BEARER TOKEN, use Insomnia)
-
+* Create new user
 ```
 http://127.0.0.1:8000/auth/users/
 ```
+<table>
+	<thead>
+			<tr>
+			<td>POST</td>
+			<td>Create new user</td>
+			<td>No</td>
+			<td>201 Created</td>
+		</tr>
+	</tbody>
+</table>
+![image](https://github.com/user-attachments/assets/05eeaa25-b498-43d3-bbeb-86e62f6744b8)
+
 ```
 http://127.0.0.1:8000/auth/token/login/
 ```
@@ -47,10 +58,10 @@ http://127.0.0.1:8000/auth/token/logout/
 ### API Endpoints
 <p>Below are the APIs endpoints explained with the URL, possible methods, actions, if a token is needed and the status codes:</p>
 
+* Check out all the menu items or add an item
 ```
 http://127.0.0.1:8000/restaurant/menu/
 ```
-* Check out all the menu items or add an item
 <table>
 	<thead>
 		<tr>
@@ -77,10 +88,10 @@ http://127.0.0.1:8000/restaurant/menu/
 </table>
 <br>
 
+* Single view, update, partially update or delete item
 ```
 http://127.0.0.1:8000/restaurant/menu/{id}
 ```
-* Single view, update, partially update or delete item
 <table>
 	<thead>
 		<tr>
@@ -118,6 +129,8 @@ http://127.0.0.1:8000/restaurant/menu/{id}
 	</tbody>
 </table>
 
+
+http://127.0.0.1:8000/restaurant/booking/tables/ (to get all reservations, use a BEARER TOKEN, use Insomnia) 
 ## Admin Panel
 <p>Logging in on the admin panel: <br> 
 Login: admin <br> 
