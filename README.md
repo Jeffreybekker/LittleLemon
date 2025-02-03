@@ -30,6 +30,7 @@ python -m venv env
 ```
 http://127.0.0.1:8000/auth/users/
 ```
+
 <table>
 	<thead>
 		<tr>
@@ -56,6 +57,7 @@ http://127.0.0.1:8000/auth/users/
 ```
 http://127.0.0.1:8000/auth/token/login/
 ```
+
 <table>
 	<thead>
 		<tr>
@@ -82,6 +84,61 @@ http://127.0.0.1:8000/auth/token/login/
 ```
 http://127.0.0.1:8000/auth/users/me/
 ```
+
+<table>
+	<thead>
+		<tr>
+			<th>HTTP Method</th>
+			<th>Action</th>
+			<th>Auth token</th>
+			<th>Status code</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>GET</td>
+			<td>Retrieve current user</td>
+			<td>Yes</td>
+			<td>200 OK</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+
+![image](https://github.com/user-attachments/assets/bea9f815-a2fd-4bab-ae6b-1282c298e489)
+
+* Get all users (admin)
+```
+http://127.0.0.1:8000/auth/users/me/
+```
+
+<table>
+	<thead>
+		<tr>
+			<th>HTTP Method</th>
+			<th>Action</th>
+			<th>Auth token</th>
+			<th>Status code</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>GET</td>
+			<td>Retrieve all users</td>
+			<td>Yes</td>
+			<td>200 OK</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+
+![image](https://github.com/user-attachments/assets/dd97969b-3594-48c4-913b-b30f6aef15c1)
+
+* Logout current user
+```
+http://127.0.0.1:8000/auth/token/logout/
+```
+
 <table>
 	<thead>
 		<tr>
@@ -94,26 +151,13 @@ http://127.0.0.1:8000/auth/users/me/
 	<tbody>
 		<tr>
 			<td>POST</td>
-			<td>Obtain user auth token</td>
-			<td>No</td>
-			<td>201 Created</td>
+			<td>Logout current user</td>
+			<td>Yes</td>
+			<td>204 No Content</td>
 		</tr>
 	</tbody>
 </table>
 <br>
-![image](https://github.com/user-attachments/assets/bea9f815-a2fd-4bab-ae6b-1282c298e489)
-
-* Get all users (admin)
-```
-http://127.0.0.1:8000/auth/users/me/
-```
-
-![image](https://github.com/user-attachments/assets/dd97969b-3594-48c4-913b-b30f6aef15c1)
-
-* Logout current user
-```
-http://127.0.0.1:8000/auth/token/logout/
-```
 
 ![image](https://github.com/user-attachments/assets/ff2b2032-0f98-455b-9865-342affcf88a3)
 
