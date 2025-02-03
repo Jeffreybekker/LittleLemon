@@ -57,7 +57,7 @@ http://127.0.0.1:8000/auth/users/
 ```
 http://127.0.0.1:8000/auth/token/login/
 ```
-*note: it takes 'username' en 'password' as content that you want to send in the body of the request*
+*Note: it takes 'username' en 'password' as content that you want to send in the body of the request.*
 
 <table>
 	<thead>
@@ -85,7 +85,7 @@ http://127.0.0.1:8000/auth/token/login/
 ```
 http://127.0.0.1:8000/auth/users/me/
 ```
-*note: First get your token (see previous point). Then add your (Bearer) Token in Auth*
+*Note: first get your token (see previous point). Then add your Token in Auth. Make sure you select Bearer Token.*
 
 <table>
 	<thead>
@@ -113,6 +113,7 @@ http://127.0.0.1:8000/auth/users/me/
 ```
 http://127.0.0.1:8000/auth/users/
 ```
+*Note: This is for Admin only. First get your Admin Token and then use it for authentication In Auth. Make sure you select Bearer Token.*
 
 <table>
 	<thead>
