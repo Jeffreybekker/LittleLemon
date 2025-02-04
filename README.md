@@ -315,6 +315,10 @@ http://127.0.0.1:8000/restaurant/booking/tables/{id}
 		</tr>
 	</tbody>
 </table>
+*Here is an example how to send a PATCH request:*
+
+![image](https://github.com/user-attachments/assets/e720c7fd-e9c2-400b-9d64-18aae0b02b54)
+
 
 ## Admin Panel
 <p>Logging in on the admin panel: <br> 
