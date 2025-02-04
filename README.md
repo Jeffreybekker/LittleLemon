@@ -168,7 +168,7 @@ http://127.0.0.1:8000/auth/token/logout/
 ### API Endpoints
 <p>Below are the APIs endpoints explained with the URL, possible methods, actions, if a token is needed and the status codes:</p>
 
-* Check out all the menu items or add an item
+* Get all the menu items or add an item
 ```
 http://127.0.0.1:8000/restaurant/menu/
 ```
