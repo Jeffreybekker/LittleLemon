@@ -198,6 +198,10 @@ http://127.0.0.1:8000/restaurant/menu/
 </table>
 <br>
 
+*Here is an example how to send a POST request:*
+
+![image](https://github.com/user-attachments/assets/472f5374-bb23-4331-81f9-70e506452215)
+
 * Single view, update, partially update or delete item
 ```
 http://127.0.0.1:8000/restaurant/menu/{id}
