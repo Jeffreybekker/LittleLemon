@@ -242,8 +242,80 @@ http://127.0.0.1:8000/restaurant/menu/{id}
 	</tbody>
 </table>
 
+* Get all bookings or add a booking
+```
+http://127.0.0.1:8000/restaurant/booking/tables/
+```
+<table>
+	<thead>
+		<tr>
+			<th>HTTP Method</th>
+			<th>Action</th>
+			<th>Auth token</th>
+			<th>Status code</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>GET</td>
+			<td>Retrieve all bookings</td>
+			<td>YES</td>
+			<td>200 OK</td>
+		</tr>
+		<tr>
+			<td>POST</td>
+			<td>Add a booking</td>
+			<td>Yes</td>
+			<td>201 Created</td>
+		</tr>
+	</tbody>
+</table>
 
-http://127.0.0.1:8000/restaurant/booking/tables/ (to get all reservations, use a BEARER TOKEN, use Insomnia) 
+*Here is an example how to send a POST request:*
+
+![image](https://github.com/user-attachments/assets/bdc296e9-8526-471b-967d-1d8b409ccd4e)
+
+* Get all bookings or add a booking
+```
+http://127.0.0.1:8000/restaurant/booking/tables/{id}
+```
+<table>
+	<thead>
+		<tr>
+			<th>HTTP Method</th>
+			<th>Action</th>
+			<th>Auth token</th>
+			<th>Status code</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>GET</td>
+			<td>Retrieve single bookings</td>
+			<td>YES</td>
+			<td>200 OK</td>
+		</tr>
+		<tr>
+			<td>PUT</td>
+			<td>Update enitre booking</td>
+			<td>Yes</td>
+			<td>200 OK</td>
+		</tr>
+		<tr>
+			<td>PATCH</td>
+			<td>Partially update booking</td>
+			<td>Yes</td>
+			<td>200 OK</td>
+		</tr>
+		<tr>
+			<td>DELETE</td>
+			<td>Delete booking</td>
+			<td>Yes</td>
+			<td>204 No Content</td>
+		</tr>
+	</tbody>
+</table>
+
 ## Admin Panel
 <p>Logging in on the admin panel: <br> 
 Login: admin <br> 
