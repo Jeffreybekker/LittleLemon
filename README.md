@@ -196,7 +196,6 @@ http://127.0.0.1:8000/restaurant/menu/
 		</tr>
 	</tbody>
 </table>
-<br>
 
 *Here is an example how to send a POST request:*
 
