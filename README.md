@@ -283,7 +283,7 @@ http://127.0.0.1:8000/restaurant/booking/tables/
 
 ![image](https://github.com/user-attachments/assets/bdc296e9-8526-471b-967d-1d8b409ccd4e)
 
-#### Get all bookings or add a booking
+#### Get all bookings, update, partially update or delete a booking
 ```
 http://127.0.0.1:8000/restaurant/booking/tables/{id}
 ```
