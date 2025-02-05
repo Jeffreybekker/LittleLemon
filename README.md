@@ -279,7 +279,7 @@ http://127.0.0.1:8000/restaurant/booking/tables/
 	</tbody>
 </table>
 
-*Here is an example how to send a POST request:*
+* Here is an example how to send a POST request:*
 
 ![image](https://github.com/user-attachments/assets/bdc296e9-8526-471b-967d-1d8b409ccd4e)
 
