@@ -176,7 +176,7 @@ http://127.0.0.1:8000/auth/token/logout/
 ### API Endpoints
 <p>Below are the APIs endpoints explained with the URL, possible methods, actions, if a token is needed and the status codes:</p>
 
-* Get all the menu items or add an item
+#### Get all the menu items or add an item
 ```
 http://127.0.0.1:8000/restaurant/menu/
 ```
@@ -209,7 +209,7 @@ http://127.0.0.1:8000/restaurant/menu/
 
 ![image](https://github.com/user-attachments/assets/472f5374-bb23-4331-81f9-70e506452215)
 
-* Get, update, partially update or delete a single item
+#### Get, update, partially update or delete a single item
 ```
 http://127.0.0.1:8000/restaurant/menu/{id}
 ```
@@ -250,7 +250,7 @@ http://127.0.0.1:8000/restaurant/menu/{id}
 	</tbody>
 </table>
 
-* Get all bookings or add a booking
+#### Get all bookings or add a booking
 ```
 http://127.0.0.1:8000/restaurant/booking/tables/
 ```
@@ -283,7 +283,7 @@ http://127.0.0.1:8000/restaurant/booking/tables/
 
 ![image](https://github.com/user-attachments/assets/bdc296e9-8526-471b-967d-1d8b409ccd4e)
 
-* Get all bookings or add a booking
+#### Get all bookings or add a booking
 ```
 http://127.0.0.1:8000/restaurant/booking/tables/{id}
 ```
